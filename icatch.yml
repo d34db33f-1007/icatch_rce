@@ -1,0 +1,33 @@
+# Shodan dork: "Server: mini_httpd" +"WWW-Authenticate: Basic realm="
+# or: http.html_hash:"1640961097"
+
+auth:
+  credentials:
+  - password: '123456'
+    username: admin
+  - password: icatch99
+    username: root
+  - password: 8Jg0SR8K50
+    username: report
+  headers: []
+  success:
+    body:
+    - DVR
+    status: 200
+  type: basic_auth
+  url:
+  - ''
+category: camera
+contributor: 't.me/asleep_cg'
+default_port: 80
+fingerprint:
+  basic_auth_realm: .
+  body:
+  - Unauthorized
+  server_header: mini_httpd/1.19 19dec2003
+  status: 401
+  url:
+  - ''
+name: icatch
+protocol: http
+ssl: false

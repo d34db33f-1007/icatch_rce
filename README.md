@@ -10,6 +10,6 @@ just change dvr ip, compile and run
 
 shodan dork: http.html_hash:"1640961097"
 
-snapshots location: <host>:<port>/cgi-bin/net_jpeg.cgi?ch=1
+snapshots location: \<host\>:<port>/cgi-bin/net_jpeg.cgi?ch=1
 brute with https://github.com/ztgrace/changeme \
 or https://gitlab.com/Reinmar/IPSca

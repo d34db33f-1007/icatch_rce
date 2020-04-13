@@ -2,7 +2,7 @@
 iCatch or LILIN DVRs RCE PoC
 
 
-besides already publicy known hardcoded credentials admin:123456, root:icatch99, report：8Jg0SR8K50 \
+besides already publicy known hardcoded credentials admin:123456, root:icatch99, report:8Jg0SR8K50 \
 and remote commands execution through NTP, FTP and etc. settings changing \
 for this devices, this PoC invokes buffer overflow and unauthenticated remote code execution.
 

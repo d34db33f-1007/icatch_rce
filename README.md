@@ -6,8 +6,6 @@ besides already publicy known hardcoded credentials admin:123456, root:icatch99,
 and remote commands execution through NTP, FTP and etc. settings changing \
 for this devices, this PoC invokes buffer overflow and unauthenticated remote code execution.
 
-just change dvr ip, compile and run
-
 shodan dork: http.html_hash:"1640961097"
 
 snapshots location: \[host]:\[port\]/cgi-bin/net_jpeg.cgi?ch=1 \
